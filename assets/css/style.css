@@ -1,0 +1,127 @@
+/*CSS Styling Sheet*/
+:root {
+  --text: #fbf9f9;
+}
+
+* {
+  color: var(--text);
+}
+
+  body {
+    font-family: Arial;
+    margin: 0;
+    background-color: black;
+  }
+  
+  header h1 {
+    background: blue;
+    color: var(--text);
+    padding: 2px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  
+  nav {
+    background-color: #090909;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    font-size: x-large;
+  }
+  
+  nav a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: solid 5px white;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+  a:link {
+    color: var(--text);
+  }
+
+  a:hover {
+    color: blue;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 2;
+    background-color: #050505;
+    padding: 38px;
+    text-align: center;
+    color: var(--text);
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: blue;
+    color: var(--text);
+  }
+
+  /* Classes*/
+
+  .headshot {
+    border: solid 5px blue;
+    border-radius: 10px;
+  }
+  
+  .projecthead {
+    background-color: rgb(107, 107, 128);
+    text-align: center;
+    padding: 5px;
+    color: var(--text);
+    font-size: x-large;
+  }
+  
+  .projects {
+    flex: 4;
+    background-color: #040404;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  
+  .boxes {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    border-spacing: 10px;
+    padding: 5px;
+    flex: 1 0 350px;
+    margin: 15px;
+    background-color: blue;
+  }
+  
+  .boxes header {
+    padding: 20px;
+    border-radius: 2px;
+  }
+  
+  .boxes img {
+    width: 100%;
+    height: 300px;
+
+  }
+  
+  /* Add responsiveness to screen sizes */
+
+  @media screen and (max-width: 760px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
