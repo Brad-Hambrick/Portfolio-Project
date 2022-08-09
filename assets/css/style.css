@@ -1,18 +1,24 @@
-/*CSS Styling Sheet*/
-:root {
+  /*CSS Styling Sheet*/
+
+  /* Color variables */
+  :root {
   --text: #fbf9f9;
-}
+  --background: #090909;
+  }
 
-* {
+/* Color for all text */
+  * {
   color: var(--text);
-}
+  }
 
+  /* Font, no margin, and background color for entire page */
   body {
     font-family: Arial;
     margin: 0;
     background-color: black;
   }
   
+  /* Styling for "Brad's Coding Portfolio" header */
   header h1 {
     background: blue;
     color: var(--text);
@@ -20,18 +26,21 @@
     text-align: center;
   }
 
+  /* Font size for "About Me" paragraph */
   p {
     font-size: 20px;
   }
   
+  /* Styling for the top navigation bar */
   nav {
-    background-color: #090909;
+    background-color: var(--background);
     text-align: center;
     display: flex;
     padding: 20px;
     font-size: x-large;
   }
   
+  /* Styling for the hyperlinks in the nav bar */
   nav a {
     color: white;
     padding: 8px 16px;
@@ -42,27 +51,32 @@
     margin: auto;
   }
 
+  /* Keeps text of all hyperlinks white instead of inheriting purple from the browser */
   a:link {
     color: var(--text);
   }
 
+  /* Changes hyperlink text color to blue when hovered over */
   a:hover {
     color: blue;
   }
   
+  /* Adds flex to the about me and portfolio boxes */
   main {
     display: flex;
     flex-wrap: wrap;
   }
   
+  /* Styling and flex for the "About Me" area */
   aside {
     flex: 2;
-    background-color: #050505;
+    background-color: var(--background);
     padding: 38px;
     text-align: center;
     color: var(--text);
   }
   
+  /* Styling for the footer/email information area */
   footer {
     padding: 20px;
     text-align: center;
@@ -72,11 +86,13 @@
 
   /* Classes*/
 
+  /* Adds border and rounds the border of the headshot image */
   .headshot {
     border: solid 5px blue;
     border-radius: 10px;
   }
   
+  /* Styling for the headers over the project boxes */
   .projecthead {
     background-color: rgb(107, 107, 128);
     text-align: center;
@@ -85,15 +101,17 @@
     font-size: x-large;
   }
   
+  /* Styling for the entire area containing the project boxes */
   .projects {
     flex: 4;
-    background-color: #040404;
+    background-color: var(--background);
     padding: 20px;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
   }
   
+  /* Styling for each individual project box */
   .boxes {
     border-style: solid;
     border-width: 0px;
@@ -105,18 +123,20 @@
     background-color: blue;
   }
   
+  /* Add padding and rounded edges to project boxes */
   .boxes header {
     padding: 20px;
     border-radius: 2px;
   }
   
+  /* sizing of the images in the project boxes */
   .boxes img {
     width: 100%;
     height: 300px;
 
   }
   
-  /* Add responsiveness to screen sizes */
+  /* Add responsiveness to accomodate all screen sizes */
 
   @media screen and (max-width: 760px) {
     main,
