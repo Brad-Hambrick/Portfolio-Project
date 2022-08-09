@@ -7,10 +7,10 @@ This project was completed in order to showcase coding projects that were comple
 2160 Aerial Imagery and Brad's Backcountry Guide service were applications originally created by Brad Hambrick and all images were personally taken by him.  The Horiseon Marketing Project was a code refactor and the link to the GitHub page will display the changes made to the webpage in order to make the code cleaner and more accessible.  All of the images/licensing requirements in the Horiseon project were completed and provided by Horiseon Marketing.  
 
 ## Visuals
-![Website Images](./assets/media/Readme-top.png)
-![Website Images](./assets/media/Readme-bottom.png)
-![Website Images](./assets/media/Reactive1.png)
-![Website Images](./assets/media/Reactive2.png)
+![Website Images](./media/Readme-top.png)
+![Website Images](./media/Readme-bottom.png)
+![Website Images](./media/Reactive1.png)
+![Website Images](./media/Reactive2.png)
 
 ## Usage
 This project will be used in order to showcase completed coding projects in order to assist with future job applications for Brad Hambrick.
