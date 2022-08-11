@@ -139,13 +139,6 @@
   
   /* Add responsiveness to accomodate all screen sizes */
 
-  @media screen and (max-width: 1200px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
-
   @media screen and (max-width: 768px) {
     main,
     nav {
