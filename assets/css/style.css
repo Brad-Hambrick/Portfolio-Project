@@ -36,8 +36,9 @@
     background-color: var(--background);
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
-    font-size: x-large;
+    font-size: large;
   }
   
   /* Styling for the hyperlinks in the nav bar */
@@ -138,7 +139,21 @@
   
   /* Add responsiveness to accomodate all screen sizes */
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 1200px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
     main,
     nav {
       flex-direction: column;
