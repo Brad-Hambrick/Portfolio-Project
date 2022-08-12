@@ -76,6 +76,7 @@
     text-align: center;
     color: var(--text);
   }
+
   
   /* Styling for the footer/email information area */
   footer {
@@ -134,7 +135,6 @@
   .boxes img {
     width: 100%;
     height: 300px;
-
   }
   
   /* Add responsiveness to accomodate all screen sizes */
